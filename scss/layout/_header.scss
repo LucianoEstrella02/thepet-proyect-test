@@ -1,0 +1,63 @@
+
+.border-black{
+    border-bottom: 2px solid #c4b6b6c9   
+}
+
+.bg-headerfoot{
+    background: $fondo-headerfoot;
+}
+
+.navbar-toggler{
+    margin-left: 140px;
+}
+
+
+.nav-link{
+    color: $color-title;
+    cursor: pointer;
+    transition: all .1.5s ease-out;    
+    &:hover{
+        transform: scale(1.1);
+        text-decoration: underline; 
+        
+    }
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #B93160;
+    text-decoration: underline;
+    
+}
+
+.cl-letter{
+    color: $fondo-rosado
+}
+
+.name-ani{
+    animation-name: thepet;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: static;
+    animation-timing-function: linear;
+}
+
+@keyframes thepet {
+    0%{
+        rotate: -5deg;
+    }
+    25% {
+        rotate: 0deg;
+      }
+      50% {
+        rotate: 5deg;
+      }
+      75% {
+        rotate: 0deg;
+      }
+      100% {
+        rotate: -5deg;
+      }
+    
+}
+
+

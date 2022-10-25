@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.fonts-title {
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+.logo {
+  width: 90px;
+  margin-left: 10px;
+}
+
+.carousel-item {
+  max-height: 30rem;
+  margin-bottom: 40px;
+}
+
+.cliente {
+  height: 500px;
+  object-fit: scale-down;
+}
+
+.img-1 {
+  float: right;
+}
+
+.img-2 {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+}
+
+.img-3 {
+  height: 300px;
+  width: 300px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+body {
+  background: #fcfcfc;
+}
+
+.cl-subtitle {
+  color: papayawhip;
+  background: rgb(143, 23, 69);
+}
+
+.border-black {
+  border-bottom: 2px solid rgba(196, 182, 182, 0.7882352941);
+}
+
+.bg-headerfoot {
+  background: rgba(255, 248, 156, 0.7882352941);
+}
+
+.navbar-toggler {
+  margin-left: 140px;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.788);
+  cursor: pointer;
+  transition: all 0.1 0.5s ease-out;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #B93160;
+  text-decoration: underline;
+}
+
+.cl-letter {
+  color: rgb(143, 23, 69);
+}
+
+.name-ani {
+  animation-name: thepet;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position: static;
+  animation-timing-function: linear;
+}
+
+@keyframes thepet {
+  0% {
+    rotate: -5deg;
+  }
+  25% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 5deg;
+  }
+  75% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: -5deg;
+  }
+}
+footer {
+  margin-top: 3%;
+}
+
+.cl-letterfoot {
+  color: rgba(0, 0, 0, 0.788);
+}
+
+.cl__thepet {
+  color: rgb(143, 23, 69);
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=styles.css.map */

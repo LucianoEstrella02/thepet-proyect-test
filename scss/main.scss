@@ -1,0 +1,14 @@
+@import "base/reset.scss";
+
+@import "utils/variables.scss";
+@import "utils/fonts.scss";
+@import "components/images";
+
+@import "layout/body";
+@import "layout/header.scss";
+@import "layout/footer";
+
+
+@import "pages/quienesomos";
+@import "pages/contacto";
+@import "pages/servicios";
