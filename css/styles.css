@@ -6,7 +6,6 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 ul {
@@ -44,14 +43,9 @@ i {
   margin-top: -25px;
 }
 
-.img-2 {
-  margin-top: -100px;
-}
-
 .parragraphText {
   font-size: 26px;
   margin-top: 28px;
-  text-align: justify;
 }
 
 body {
@@ -61,6 +55,10 @@ body {
 .cl-subtitle {
   color: papayawhip;
   background: rgb(143, 23, 69);
+}
+
+.roncito {
+  margin-top: 20%;
 }
 
 .border-black {
@@ -73,10 +71,6 @@ body {
 
 .navbar-toggler {
   margin-left: 140px;
-}
-
-element.style {
-  font-size: 18px;
 }
 
 .nav-link {
@@ -134,6 +128,51 @@ footer {
 .cl__thepet {
   color: rgb(143, 23, 69);
   font-weight: 600;
+}
+
+.amor {
+  margin-top: 20%;
+}
+
+.mapa {
+  border: 3px solid rgb(143, 23, 69);
+  border-radius: 50px;
+}
+
+.direccion {
+  background: rgb(143, 23, 69);
+  color: papayawhip;
+  font-size: 25px;
+  font-weight: 550;
+  border-radius: 15px;
+  padding: 2px;
+  margin-top: 2px;
+  animation-name: direccion;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  position: static;
+  animation-timing-function: linear;
+}
+
+@keyframes direccion {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.02);
+  }
+  45% {
+    transform: scale(1.05);
+  }
+  65% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.compartiendo {
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,46 @@
+
+
+.mapa{
+    border: 3px solid $fondo-rosado;
+    border-radius: 50px;
+}
+
+
+
+.direccion{
+    background: $fondo-rosado;
+    color: $color-subtitle;
+    font-size: 25px;
+    font-weight: 550;
+    border-radius: 15px;
+    padding: 2px;
+    margin-top: 2px;
+    animation-name: direccion;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    position: static;
+    animation-timing-function: linear;
+}
+
+@keyframes direccion{
+   0%{
+    transform: scale(1.00);
+   }
+   25%{
+    transform: scale(1.02);
+   }
+   45%{
+    transform: scale(1.05);
+   }
+   65%{
+    transform: scale(1.02);
+   }
+   100%{
+    transform: scale(1.00);
+   }
+    
+}
+
+.compartiendo{
+    border-radius: 10px;
+}
