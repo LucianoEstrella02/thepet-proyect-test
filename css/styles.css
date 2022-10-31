@@ -150,7 +150,6 @@ footer {
   animation-name: direccion;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-  position: static;
   animation-timing-function: linear;
 }
 
@@ -171,8 +170,19 @@ footer {
     transform: scale(1);
   }
 }
-.compartiendo {
-  border-radius: 10px;
+.comunicate {
+  margin-top: 7%;
+}
+
+input.btn.btn-lg {
+  background: rgb(143, 23, 69);
+  color: papayawhip;
+}
+input.btn.btn-lg:hover {
+  color: rgb(143, 23, 69);
+  font-weight: 550;
+  border: 2px solid rgb(143, 23, 69);
+  background: rgba(216, 210, 210, 0.76);
 }
 
 /*# sourceMappingURL=styles.css.map */

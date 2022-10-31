@@ -61,15 +61,15 @@
             
 
         <section>
-            <div class="container">
+            <div class="container ">
                 <div class="row justify-content-center m-3">
                     <div class="col-lg-6 ">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13393.568586033463!2d-68.8326386!3d-32.9406546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0ac146ef2441085!2sThe%20Pet%20guarder%C3%ADa%20de%20mascotas!5e0!3m2!1ses-419!2sar!4v1667170985819!5m2!1ses-419!2sar" class="mapa" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <p class="text-center container direccion"> Cerro Catedral 1145, M5501 Mendoza</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13393.568586033463!2d-68.8326386!3d-32.9406546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0ac146ef2441085!2sThe%20Pet%20guarder%C3%ADa%20de%20mascotas!5e0!3m2!1ses-419!2sar!4v1667170985819!5m2!1ses-419!2sar" class="mapa w-100 my-3 rounded-4 border-2 h-100 shadow " ></iframe> <p class="text-center container direccion d-none d-lg-block"> Cerro Catedral 1145, M5501 Mendoza</p>
                     </div>
 
                     <div class="col-lg-6">
                         
-                        <img src="../assets/compartiendo.jpg" alt="contacto" class="compartiendo">
+                        <img src="../assets/compartiendo.jpg" alt="contacto" class="mt-lg-3 mt-5 w-100 ">
 
                     </div>
 
@@ -77,6 +77,97 @@
 
             </div>
         </section>
+
+
+
+
+
+        <div class="container-fluid text-center cl-subtitle  rounded-5 fs-3 p-2 comunicate">
+            <h1>
+                COMUNICACTE CON NOSOTROS
+            </h1>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row align-items-ba justify-content-lg-center">
+                <div class="container col-lg-4 m-4">
+    
+                    <div class="mb-3 ">
+                        <label for="nomApInput" class="form-label w-100 ">Nombre y Apellido</label>
+                        <input type="text" class="form-control fs-letter " id="nomApInput" name="nomApInput"
+                            placeholder="Escriba su Nombre y Apeliido">
+                    </div>
+    
+                    <div class="mb-3 ">
+                        <label for="emailInput" class="form-label w-100 ">Email</label>
+                        <input id="emailInput" class="form-control fs-letter " type="email" name="email"
+                            placeholder="ejemplo123@ejemplo.com">
+                    </div>
+    
+                    <div class="mb-3 col-11 ">
+                        <label for="telInput" class="form-label ">Telefono</label>
+                        <input id="telInput" type="number" class="form-control " name="telIpunt"
+                            placeholder="Numero de contacto">
+                    </div>
+    
+                    <div class="mb-3 col-11">
+                        <label for="ejDataList" class="form-label ">Motivo de Consulta</label>
+                        <input class="form-control " list="listOptions" id="ejDataList"
+                            placeholder="Escriba su para buscar su motivo de consulta...">
+                        <datalist id="listOptions">
+                            <option value="Reclamos/sugerencias">
+                            <option value="Consulta">
+                            <option value="Turnos/Reserva">
+                            <option value="Otro">
+                        </datalist>
+                    </div>
+                    <div class="mb-3 col-11">
+                        <label for="ejDataList" class="form-label ">Tipo de Mascota</label>
+                        <input class="form-control " list="tipoMasc" id="ejDataList"
+                            placeholder="Escriba su para buscar su motivo de consulta...">
+                        <datalist id="tipoMasc">
+                            <option value="Gato">
+                            <option value="Perro">
+                            <option value="Otro">         
+                        </datalist>
+                    </div>
+                    <div class="mb-3 col-11">
+                        <label for="ejDataList" class="form-label ">Tamaño de Mascota</label>
+                        <input class="form-control " list="tamañoMasc" id="ejDataList"
+                            placeholder="Escriba su para buscar su motivo de consulta...">
+                        <datalist id="tamañoMasc">
+                            <option value="Pequeña">
+                            <option value="Mediana">
+                            <option value="Grande">         
+                        </datalist>
+                    </div>
+
+    
+                    <div class=" mb-3 col-11 ">
+                        <label for="fileInput" class="form-label ">Imagen Mascota</label>
+                        <input id="fileInput" type="file" value="Examinar" class="form-control ">
+                    </div>
+    
+                    
+    
+                </div>
+                
+    
+                <div class=" col col-lg-5 d-flex m-4">
+                    <label for="comentId" class="form-label "></label>
+                    <textarea id="comentId" class="form-control " cols="30" rows="10"
+                        placeholder="Comentarios:"></textarea>
+                </div>
+    
+                    <div class="d-flex justify-content-center mb-3">
+                        <input class=" btn btn-lg" type="submit" value="Enviar">
+                    </div>
+    
+            </div>
+    
+        </div>
 
 
 

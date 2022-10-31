@@ -18,7 +18,6 @@
     animation-name: direccion;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
-    position: static;
     animation-timing-function: linear;
 }
 
@@ -41,6 +40,19 @@
     
 }
 
-.compartiendo{
-    border-radius: 10px;
+.comunicate{
+    margin-top: 7%;
 }
+
+input.btn.btn-lg{
+    background: $fondo-rosado;
+    color: $color-subtitle;
+
+    &:hover{
+        color: $fondo-rosado;
+        font-weight: 550;
+        border: 2px solid $fondo-rosado;
+        background: rgba(216, 210, 210, 0.76);
+    }
+}
+
